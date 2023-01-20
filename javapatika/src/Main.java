@@ -7,7 +7,7 @@ public class Main {
 
         for (n=2;n<=100;n++){
             sonuc=true;
-            for (t=2;t<=100;t++){
+            for (t=2;t<=n;t++){
                 if (n!=t){
                 if (n%t==0){
                     sonuc=false;
